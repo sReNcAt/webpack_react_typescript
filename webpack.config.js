@@ -25,4 +25,7 @@ module.exports = {
             template: path.resolve(__dirname, "./template/index.html"),
         }),
     ],
+    devServer: {
+        historyApiFallback: true,
+    },
 }
