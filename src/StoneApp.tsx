@@ -253,6 +253,11 @@ export default function StoneApp() {
             stone_2_cnt = 0;
             stone_3_cnt = 0;
             drawScreen();
+        
+            const allBtnProc : NodeListOf<Element> = document.querySelectorAll('.btn-proc') 
+            for (const sub of allBtnProc as any){
+                sub.disabled = false;
+            }
     }
     async function test() {
         await new Promise<void>((resolve) => {
@@ -264,7 +269,6 @@ export default function StoneApp() {
 
             const allBtnProc : NodeListOf<Element> = document.querySelectorAll('.btn-proc') 
             for (const sub of allBtnProc as any){
-                sub.disabled = false;
                 sub.addEventListener('click',btnProcClickEvent);
             }
             
