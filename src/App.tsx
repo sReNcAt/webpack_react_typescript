@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 
-import MainPage from './MainPage'
+import MainPage from './MainPage';
 
-import StoneApp from './StoneApp'
-import CalcApp from './CalcApp'
-import BiakissApp from './BiakissApp'
-import BingoApp from './BingoApp'
+import StoneApp from './StoneApp';
+import CalcApp from './CalcApp';
+import BiakissApp from './BiakissApp';
+import BingoApp from './BingoApp';
 
-import NotFound from './NotFound'
+import NotFound from './NotFound';
 
 const App = () => {
     return (

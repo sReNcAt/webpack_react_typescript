@@ -13,3 +13,5 @@ Webpack + React + TypeScript Default Project Template Set-up
 Change Default Layout
 
 React-router-dom Apply,
+
+Abillity Stone Simulator Change Script jQuery To Vanilla JS and TypeScript

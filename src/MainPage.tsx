@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 
 
@@ -21,14 +21,14 @@ export default function MainPage() {
             setTimeout(() => {
                 resolve()
             }, 1000)
-        })
+        });
 
-        console.log('Main Page')
-    }
+        console.log('Main Page');
+    };
 
     useEffect(() => {
-        test()
-    }, [])
+        test();
+    }, []);
 
     return (
         <div id="index">
@@ -106,4 +106,4 @@ export default function MainPage() {
                 </div>
             </section>
         </div>);
-}
+};
